@@ -839,9 +839,6 @@ extern int __overflow (FILE *, int);
 
 # 3 "hello.c"
 int main() {
- int number;
- printf("enter a number:");
- scanf("%i",&number);
- printf("you entered: %i", number);
- return 0;
+    printf("Hello, World!\n");
+    return 0;
 }
